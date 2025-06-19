@@ -29,39 +29,5 @@ o	news — Shows sample news headlines
 o	time — Shows current time
 o	weather — Fetches the current weather for London (default)
 o	exit or quit — Ends the session
-Example Interaction
-yaml
-CopyEdit
-🤖 Task Automation Bot  
-Type 'exit' to stop.
 
-Good afternoon!  
-You: add task finish report  
-Bot: Task 'finish report' added.
-
-You: show tasks  
-Bot: Here are your tasks:  
-- finish report
-
-You: news  
-Bot: Today's top news:  
-- OpenAI releases new AI model.  
-- Python remains the most popular programming language.  
-- Global tech salaries are rising in 2025.
-
-You: time  
-Bot: The current time is 14:30:45
-
-You: weather  
-Bot: The current weather in London is light rain with a temperature of 12°C.
-
-You: exit  
-Bot: Goodbye! Automation session ended.
-Customization
-You can replace the default city for weather by changing the WEATHER_CITY variable in the script.
-To use real-time news, you can integrate a news API by modifying the get_news() function.
-About Me
-I am a mid-level software developer with over 3 years of experience specializing in Python development, automation, and AI-driven solutions. I have a strong background in designing and implementing practical applications that solve real-world problems efficiently.
-This project demonstrates my hands-on skills in building interactive command-line tools, integrating external APIs, and applying software engineering best practices. I continuously seek to improve my craft by learning new technologies and delivering clean, maintainable code.
-I am passionate about leveraging automation and AI to enhance productivity and user experiences.
 
